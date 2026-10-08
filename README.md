@@ -1,34 +1,21 @@
 # Kiln Court Killers
 
-A temperature-management survival game built with Grok.
+The next court. Same orbs. Infection in the blood.
 
-## The Premise
+Live parent: https://wolf-tango-apple-rocket.grok.me/
 
-The court is the arena. The kiln is the cure. The killers are the zombies you can't afford to lose.
+## What this is
 
-Zombies wander the court spreading infection on contact. The only way to save an infected orb person is to lure a zombie into the kiln's heat — the warmth kills the infection, but the zombie dies too. You're spending a cure to save a life.
+Kiln Court is the game we already shipped. Orbs raise a room around themselves and fight the dial. Air lags the setpoint. The door leaks.
 
-## The Economy
+Kiln Court Killers keeps that court and adds infection. A zombie is an infected orb, not a new monster. A couple start infected. The others can catch it. The only save is to cook the infection out inside their own kiln house.
 
-- The kiln burns fuel. Every orb person you save costs wood to keep warm.
-- Saved orb people become workers: they tend the fire, haul wood, and scout.
-- Lose them all and the kiln goes cold. Then nobody gets saved.
+## Log
 
-## The Endgame
-
-The cold snap. A wave where the kiln can't keep up, and you have to choose who burns and who freezes. The horror isn't the zombies — it's the math.
-
-## Project Structure
-
-- `docs/design.md` — full design document
-- `docs/mechanics.md` — infection spread, temperature, and cure rules
-- `docs/level-01.md` — first level layout
-- `src/` — game code (coming soon)
+- `docs/kiln-court-source.md` — property log of the live Kiln Court build
+- `docs/infection.md` — locked cure rule
+- `docs/design.md` — earlier design pass, superseded where it disagrees with infection.md
 
 ## Status
 
-Design phase. Built in conversation with Grok, shipped to GitHub.
-
-## Lineage
-
-Evolved from **Kiln Court** — the orb-people survival game that earned its first payout. Kiln Court Killers adds the zombie infection layer and the warm-room cure mechanic.
+Design. No game code yet. Parent build stays at the grok.me link.
